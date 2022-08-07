@@ -1,4 +1,54 @@
+html {
+    scroll-behavior: smooth;
+    background-image: url(../img/bgAlt.jpeg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+#nav {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    position:fixed;
+    list-style: none;
+}
+#navItems {
+    display: flex;
+    list-style: none;
+}
+li {
+    padding: 10px;
+    color: aliceblue;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+body {
+    height: 3em;
+}
+text {
+    color: aliceblue;
+}
+h1 {
+    font-size: 3em;
+    text-shadow: black;
+}
 h1,h2 {
     font-family: monospace;
+    color: aliceblue;
     
+}
+#titleCard {
+    width: 50%;
+    height: 100vh;
+    padding-left: 20%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#resume {
+    width: 50%;
+    height: 500px;
 }
